@@ -1,0 +1,48 @@
+.custom-navbar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .brand-logo {
+    color: #333 !important;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #555 !important;
+    font-weight: 500;
+    padding: 8px 15px !important;
+  }
+  
+  .nav-link:hover {
+    color: #007bff !important;
+  }
+  
+  .cart-link {
+    background-color: #007bff;
+    color: white !important;
+    padding: 8px 20px !important;
+    border-radius: 4px;
+  }
+  
+  .cart-link:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 991px) {
+    .nav-links {
+      margin-top: 10px;
+    }
+    
+    .cart-link {
+      margin-top: 10px;
+      display: inline-block;
+    }
+  }
+  
